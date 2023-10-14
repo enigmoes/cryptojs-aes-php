@@ -15,7 +15,7 @@ It uses default `aes-256-cbc` implementation with random salts and random initia
 You need the file `src/CryptoJsAes.php`
 ```php
 <?php
-use Nullix\CryptoJsAes\CryptoJsAes;
+use CryptoJsAes\CryptoJsAes;
 require "CryptoJsAes.php";
 
 // encrypt
